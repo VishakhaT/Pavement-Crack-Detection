@@ -6,12 +6,21 @@ segment them out. Post processing includes the super imposition of the found cra
 # Implementation
 
 Step 1: Reading multiple input data from folder
+
 Step 2: Conversion to grayscale image
+
 Step 3: Contrast stretching
+
 Step 4: Applying median filter to smoothen the image
+
 Step 5: Applying threshold on the image to segment out the cracks
+
 Step 6: Creating a structuring element to detect cracks in all orientations
+
 Step 7: Creating a marker image by erosion with created structuring element
+
 Step 8: Reconstruction by opening using the marker image
+
 Step 9: Applying median filter again to remove detected speckles
+
 Step 10: Superimposing the detected cracks on the original image
